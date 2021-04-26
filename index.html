@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Título de página -->
+        <title>Brownie Lovers</title>
+        <meta title="Brownie Lovers">
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+        
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Meta para bloquear el Zoom Out -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Roboto:wght@100;300;400;500;700;900&family=Kufam:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!-- Componente Menú Hamburguesa -->
+        <aside id="menu-hamburguesa">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav>
+                <a href="#capa-contenido">Inicio</a>
+                <a href="https://guillermoleal03.github.io/Parcial-2-Parte-1/">Precios</a>
+                <a href="#galeria-imagenes">Fotos</a>
+                <a href="#formulario-contactenos">Registrese</a>
+            </nav>
+        </aside>
+
+        <!-- Componente Botón WhatsApp -->
+        <aside id="boton-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=573007299704" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Header Logo y Menú -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/logo.png">
+                    </a>
+                </figure>
+
+                <nav>
+                    <a href="#capa-contenido">Inicio</a>
+                    <a href="https://guillermoleal03.github.io/Parcial-2-Parte-1/">Precios</a>
+                    <a href="#galeria-imagenes">Fotos</a>
+                    <a href="#formulario-contactenos">Registrese</a>
+                </nav>
+            </article>
+        </header>
+
+        <!-- Caja Main -->
+        <main>
+            <!--  Banner Video HTML5 Loop Muted Autoplay -->
+           <section id="banner-video-loop-muted">
+            <div id="capa-contenido"></div>
+            <h1></h1>
+              <div id="capa-color-video"></div>
+            <video width="100%" height="700" preload="auto" controls="no" loop muted autoplay>
+            <source src="multimedia/browniesvid.mp4" type="video/mp4">
+            </video>
+             </section>
+
+             <!-- Galeria de FancyApps -->
+             <section id="galeria-imagenes">
+                <article>
+                    <h5>Fotos</h5>
+                  <nav>
+                      <!-- En la etiqueta a se llama a la imagen grande -->
+                     <a href="img/min 1 - grande.jpg" data-fancybox="galeria">
+                           <!-- En la etiqueta img se llama a al imagen pequeña -->
+                        <img src="img/min 1.jpg">
+                     </a>
+
+                     <a href="img/min 2 - grande.jpg" data-fancybox="galeria">
+                        <img src="img/min 2.jpg">
+                     </a>
+
+                     <a href="img/min 3 - grande.jpg" data-fancybox="galeria">
+                       <img src="img/min 3.jpg">
+                     </a>
+
+                     <a href="img/min 4 - grande.JPG" data-fancybox="galeria">
+                         <img src="img/min 4.JPG">
+                     </a>
+
+                     <a href="img/min 5 - grande.jpeg" data-fancybox="galeria">
+                       <img src="img/min 5.jpeg">
+                     </a>
+
+                     <a href="img/min 6 - grande.jpg" data-fancybox="galeria">                     
+                      <img src="img/min 6.jpg">
+                     </a>
+
+                     <a href="img/min 7 - grande.jpg" data-fancybox="galeria">                        
+                        <img src="img/min 7.jpg">
+                     </a>
+
+                     <a href="img/min 8 - grande.jpg" data-fancybox="galeria">                       
+                      <img src="img/min 8.jpg">
+                     </a>
+
+                   </nav>
+                </article>
+            </section>
+
+            <!-- Mapa de Google Maps -->
+            <section id="mapa-googlemaps">
+                <div id="capa-mapa-google-maps"></div>
+                <h5>Ubicación</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4657.356570212724!2d-74.82711511384566!3d11.012010903985813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ab6eda3d5142548!2sCentro%20Comercial%20Buenavista!5e0!3m2!1ses!2sco!4v1619391421798!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+
+            <!-- Formulario de Contactenos -->
+            <section id="formulario-contactenos">
+                <article>
+                      <h5>Registrate y Gana una caja de Brownies gratis!</h5>
+                      <form id="formu-cont" action="" method="get">
+                         <input type="text" id="nombre" placeholder="Nombre">
+                         <input type="email" id="correo" placeholder="Correo">
+                         <input type="tel" id="telefono" placeholder="Numero de Telefono">
+                         <textarea rows="3" id="mensaje" placeholder="Mensaje"></textarea>
+                         <input type="submit" id="enviar" value="ENVIAR">
+                      </form>
+                </article>
+            </section>
+            
+        </main>
+
+        <!-- Componente Footer Logo al Centro -->
+        <footer>
+            <figure>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </figure>
+        </footer>
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Llamado a la Libreria de FancyApps -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

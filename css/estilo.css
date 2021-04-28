@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
 /* Estilo Propio */
 
 /* Componente Menú Hamburguesa */
-aside#menu-hamburguesa { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background:#255aab; }
+aside#menu-hamburguesa { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background:#FFA5EE; }
 
-aside#menu-hamburguesa a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background:#fff ; color: #255aab; text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+aside#menu-hamburguesa a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background:#fff ; color: #FFA5EE; text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
 
 aside#menu-hamburguesa a#abrir:hover { background: #d00f0f; transition: all 0.3s ease-in; }
 
-aside#menu-hamburguesa a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background: #fff; color: #255aab; text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+aside#menu-hamburguesa a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background: #fff; color: #FFA5EE; text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
 
 aside#menu-hamburguesa a#cerrar:hover { background: #d00f0f; transition: all 0.3s ease-in; }
 
